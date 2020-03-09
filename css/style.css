@@ -101,7 +101,7 @@ h2{
 
 .card img{
     margin-top: 8px;
-    box-shadow: 6px 6px 10px var(--shadow), ´6px -6px 10px var(--light);
+    box-shadow: 6px 6px 10px var(--shadow), -6px -6px 10px var(--light);
 }
 
 footer{
@@ -132,5 +132,25 @@ footer h4{
 }
 footer p{
     text-align: center;
+
+}
+@media (min-width: 426px){
+ 
+
+}
+@media (min-width: 769px){
+.card{
+    display: flex;
+}
+    .card img{
+        width: 30%;
+    
+    }
+}
+
+}
+
+@media (min-width: 1201px){
+
 
 }
